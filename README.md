@@ -36,7 +36,10 @@ Get your `opencode.json` config and place it in your `~\.config\opencode` direct
 Download Files
 
 ```shell
-git init ~/.config/opencode/ && git -C ~/.config/opencode/ remote add origin https://github.com/stratusadv/opencode-files-public && git -C ~/.config/opencode/ fetch && git -C ~/.config/opencode/ reset --hard origin/main
+git init ~/.config/opencode/
+git -C ~/.config/opencode/ remote add origin https://github.com/stratusadv/opencode-files-public
+git -C ~/.config/opencode/ fetch
+git -C ~/.config/opencode/ reset --hard origin/main
 ```
 
 ## Update Files
